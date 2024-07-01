@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Info:</legend>
+        <label for="username">USERNAME: </label>
+        <input type="text" name="username" id="username" required />
+        <br />
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" id="password" required />
+
+        <hr />
+
+        Class:
+        <label for=""></label>
+        <input type="checkbox" value="m1" name="class" /> M1
+        <input type="checkbox" value="m2" name="class" /> M2
+
+        <br />
+        Gender:
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female
+      </fieldset>
+
+      <hr />
+
+      Date of Birth: <input type="date" name="date-of-birth" id="dob" />
+
+      <input type="number" />
+      <input type="file" />
+      <input type="hidden" name="secret-text" value="chrome" />
+
+      <hr />
+
+      Social Media:
+      <select name="Social Media" id="social-media">
+        <option></option>
+        <option value="facebook">Facebook</option>
+        <option value="youtube">Youtube</option>
+        <option value="twitter">Twitter</option>
+      </select>
+
+      <hr />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
