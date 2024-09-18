@@ -1,0 +1,12 @@
+- if else
+- else if
+- And , Or (&& , ||)
+- Camel Case
+- Array
+- .pop() (remove an element from last in array)
+- .shift() (remove an element from start in array)
+- .push() (add a or more elements from last in array)
+- .unshift() (add a or more elements from start in array)
+- .splice() (removing and adding elements from array)
+- .slice() (copy elements from an array)
+- for loop

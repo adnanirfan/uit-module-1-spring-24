@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .show {
+        display: inline;
+      }
+
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Class 15</h1>
+
+    <!-- ---------- onClick --------- -->
+    <h3>onclick</h3>
+
+    <a href="#" onclick="alert('Hello World')"> Link </a>
+
+    <button onclick="btnClick()">Click Me</button>
+
+    <p id="para">
+      <span id="text"></span>
+      <a href="#" id="read-more" onclick="expand()">Read More</a>
+      <a href="#" id="read-less" onclick="collapse()" class="hide">Read Less</a>
+    </p>
+
+    <!-- ---------- Events --------- -->
+    <hr />
+
+    <h3>onmouseover and onmouseout</h3>
+    <img
+      width="350"
+      height="300"
+      src="https://i.pinimg.com/736x/d2/6d/2a/d26d2aab2ff63cb48b3a91b0e8e0aa55.jpg"
+      onmouseover="src='https://img.freepik.com/free-photo/sports-car-driving-asphalt-road-night-generative-ai_188544-8052.jpg'"
+      onmouseout="src='https://i.pinimg.com/736x/d2/6d/2a/d26d2aab2ff63cb48b3a91b0e8e0aa55.jpg'"
+    />
+
+    <hr />
+
+    <h3>onfocus and onblur</h3>
+    <input type="text" onfocus="this.style.backgroundColor = 'red'" />
+    <input type="text" onblur="this.style.backgroundColor = 'green'" />
+
+    <hr />
+
+    <h3>Getting Values</h3>
+    <input type="text" placeholder="Enter Name" id="name" />
+    <button onclick="getName()">Submit</button>
+
+    <hr />
+
+    <h3>Set Values</h3>
+    <input type="text" placeholder="Enter Age" id="age" />
+    <button onclick="setValue()">Submit</button>
+
+    <hr />
+
+    <h3>Stop Watch</h3>
+    <div style="display: flex; gap: 10px">
+      <h1 id="minutes">0</h1>
+      <h1 id="seconds">0</h1>
+      <h1 id="milliSeconds">0</h1>
+    </div>
+
+    <div>
+      <button onclick="start()">Start</button>
+      <button onclick="stop()">Stop</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
