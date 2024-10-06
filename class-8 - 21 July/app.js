@@ -1,9 +1,9 @@
 // alert("Javascript");
 
 // var name = "jsjdljlasd";
-// var age = 20; 
-// alert(name);  
-// alert(age);  
+// var age = 20;
+// alert(name);
+// alert(age);
 
 // var numOne = "10";
 // var numTwo = "20";
@@ -21,12 +21,7 @@
 // alert(name + "-" + age);
 // alert(module + "-" + university);
 
-
 // Hello, Adnan! Welcome to Javascript
-
-
-
-
 
 // let name = "Adnan"
 // console.log(name)
@@ -38,7 +33,6 @@
 
 // let name = "Adnan"
 // name = "Irfan"
-
 
 // let num1 = prompt('Enter 1st number');
 // let num2 = prompt('Enter 2nd number');
@@ -55,7 +49,6 @@
 // console.log("Sub: " + sub);
 // console.log("Mul: " + mul);
 // console.log("Divide: " + divide);
-
 
 // -------------------------------
 
@@ -77,7 +70,6 @@
 
 // -------------------------------
 
-
 // let x = 5
 // let y = 10
 
@@ -87,15 +79,13 @@
 // console.log(x >= y)
 // console.log(x <= y)
 
-
 // -------------------------------
 
-let x = 76
-let y = 10
+let x = 76;
+let y = 10;
 
 if (x != y) {
-    console.log('TRUE')
+  console.log("TRUE");
 } else {
-    console.log('FALSE')
+  console.log("FALSE");
 }
-

@@ -1,40 +1,39 @@
-/* Basic styles for body and container */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 /**** Header and Footer ****/
 .header,
 .footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
 
 /**** Content section ****/
 .content {
-  display: flex;
-  flex: 1;
-  /* flex-direction: row; */
+    display: flex;
+    flex: 1;
+    /* flex-direction: row; */
 }
 
 .sidebar {
-  background-color: #f4f4f4;
-  padding: 1em;
-  flex: 1;
+    background-color: #f4f4f4;
+    padding: 1em;
+    flex: 1;
 }
 
 .main {
-  background-color: #e4e4e4;
-  padding: 1em;
-  flex: 3;
+    background-color: #e4e4e4;
+    padding: 1em;
+    flex: 3;
 }
